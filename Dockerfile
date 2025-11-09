@@ -1,3 +1,3 @@
-FROM httpd
-COPY * usr/local/apche2/htdocs
+FROM apache2
+COPY * usr/local/apache2/htdocs
 EXPOSE 80
